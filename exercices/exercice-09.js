@@ -18,4 +18,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+for (let j = 1; j <= 50; j++) {
+
+    if (j % 3 === 0 && j % 5 === 0) {
+        console.log("FizzBuzz");
+    }
+    else if (j % 5 === 0) {
+        console.log("Buzz");
+    }
+    else if (j % 3 === 0) {
+        console.log("Fizz");
+    }
+    else {
+        console.log(j);
+    }
+}

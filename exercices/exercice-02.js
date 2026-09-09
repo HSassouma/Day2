@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+//methode 1
+for(let i=20 ;i>=0;i-=2){
+    console.log("Numero : "+i)
+}
+//methode2
+for(let j=0;j<=20;j++){
+    if(j%2===0){
+        console.log(`numero : ${j}`)
+    }
+}
