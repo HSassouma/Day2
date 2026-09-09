@@ -9,4 +9,17 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+let N = 100;
+let i = 0;
+
+while (true) {
+    N /= 2;
+    i++;
+
+    if (N < 1) {
+        break;
+    }
+}
+
+console.log("Le nombre de divisions est " + i);
